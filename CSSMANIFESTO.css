@@ -1,0 +1,804 @@
+@charset "utf-8";
+
+html, body {
+  height: 100%;
+  margin: 0;
+}
+
+body {
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+}
+
+main {
+  flex: 1;
+}
+
+.hero {
+	background-image: url("IMG/Herobg.png");
+	background-size:cover;
+	background-position: center center;
+	background-repeat: no-repeat;
+	width: 100%;
+	height: 1000px;	
+	align: center;
+}
+
+.forh1{
+  font-family: "Quantico", sans-serif;
+  font-weight: 800;
+  font-style: normal;
+	font-size: 9vw;
+	color:#DF101A;
+	text-align: center;
+	margin-top: 0;
+	margin-left: auto;
+	padding-left:20px; 
+}
+.aboh1{
+  font-family: "Quantico", sans-serif;
+  font-weight: 800;
+  font-style: normal;
+	font-size: 9vw;
+	color:#E8E8E8;
+	text-align: center;
+	margin-top: 0;
+	
+ 
+}
+h2{
+  font-family: "Unica One", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+	font-size: 5vw;
+	color:#DF101A;
+	text-align:center;
+	margin-top:0;
+}
+
+h3{
+  font-family: "Quantico", sans-serif;
+  font-weight: 400;
+  font-style: italic;
+	font-size: 2vw;
+	color:#DF101A;
+	text-align:bottom;
+	margin-bottom:0;
+	
+	
+}
+fh3{
+  font-family: "Quantico", sans-serif;
+  font-weight: 400;
+  font-style: italic;
+	font-size: 3.5vw;
+	color:#DF101A;
+	text-align:bottom;
+	margin-bottom:0;
+	
+	
+}
+
+h4{ font-family: "Unica One", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+	font-size: 3vw;
+	color:#000000;
+	padding-right: 45px;
+	padding-left: 50px;
+	margin-bottom: 20px;
+	}
+
+h5{ font-family: "Unica One", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+	font-size: 3vw;
+	color:#DF101A;
+	}
+figcaption{ font-family: 'IBM Plex Sans';
+  font-weight: 250;
+  font-style: italic;
+	font-size: 1.5vw;
+	color:#373737;
+	text-align:right;	
+	padding-right: 50px;
+	padding-left: 50px;
+
+}
+figcaption2{ font-family: 'IBM Plex Sans';
+  font-weight: 250;
+  font-style: italic;
+	font-size: 1.5vw;
+	color:#373737;
+	text-align:right;	
+	padding-right: 50px;
+	padding-left: 50px;
+	flex-wrap: wrap;
+
+}
+p{ font-family: 'IBM Plex Sans';
+  font-weight: 350;
+  font-style: normal;
+	font-size: 1.5vw;
+	color:#373737;
+	text-align:justify;	
+	padding-right: 50px;
+	padding-left: 50px;
+}
+
+p1{ font-family: 'IBM Plex Sans';
+  font-weight: 400;
+  font-style: normal;
+	font-size: 1.5vw;
+	color:#373737;
+	text-align:right;	
+	padding: 4px;
+}
+
+p5{ font-family: 'IBM Plex Sans';
+  font-weight: 400;
+  font-style: normal;
+	font-size: 1.5vw;
+	color:#DF101A;
+	text-align:right;	
+
+}
+q { font-family: 'IBM Plex Sans';
+  font-weight: 500;
+  font-style:italic;
+	font-size: 3vw;
+	color:#DF101A;
+	text-align:justify;	
+	padding: 4px;
+}
+
+h6{ font-family: "Unica One", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+	font-size: 3vw;
+	color:#E8E8E8;
+	text-align:center;
+	padding-top: 0px;
+
+	}
+
+p2{ font-family: 'IBM Plex Sans';
+  font-weight: 350;
+  font-style: normal;
+	font-size: 1.5vw;
+	color:#E8E8E8;
+	text-align:justify;	
+	padding-right: 25px;
+	padding-left: 25px;
+}
+
+
+
+
+
+
+.quote{
+	background-color:#F4F2F3;
+	padding:10%;
+}
+
+
+.typography{
+background-color:#D6D6D6;
+padding:10%;
+}
+
+.typography3{
+background-image:url("IMG/Typebg.png");
+background-attachment:fixed;
+background-size: cover;
+background-color:#D6D6D6;
+padding:10%;
+}
+
+.colordesign{
+	background-size: cover;
+	background-color:#F4F2F3;
+	padding:10%;
+}
+
+.colordesign3{
+	background-image:url("IMG/colorbg.png");
+background-attachment:fixed;
+	background-size: cover;
+	background-size: cover;
+	background-color:#F4F2F3;
+	padding:10%;
+}
+
+
+.button {
+font-family: "Unica One", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+	font-size: 2vw;
+	align:center;
+	background-color: #DF101A;
+  border: none;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  margin: 0px 5px;
+  cursor: pointer;
+	text-shadow: 0px 0px #E8E8E8;
+	
+}
+
+.button:hover{
+	color: #Df101A;
+	background-color: #000000;
+	text-decoration: none;
+}
+
+a { 
+	color:#E8E8E8
+}
+a:hover{
+	color:#DF101A
+}
+
+.button2 {
+font-family: "Unica One", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+	font-size: 2vw;
+	align:center;
+	background-color: #DF101A;
+  border: none;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  margin: -5px 5px;
+  cursor: pointer;
+	text-shadow: 0px 0px #E8E8E8;
+}
+
+
+.button2:hover{
+	color: #Df101A;
+	background-color: #000000;
+	text-decoration: none;
+}
+
+
+
+.special-link  {
+  color:#DF101A;
+  text-decoration: underline;
+  font-weight: normal;
+font-style: italic;
+	
+}
+
+.special-link:hover {
+  color: #373737;
+
+}
+
+
+
+.center-box{
+	display:flex;
+	justify-content:center;
+	align-items: center;
+	height: 0vh;
+	margin-top: 6%;
+	
+}
+
+
+
+ul.topnav {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #000000;
+}
+
+ul.topnav li {float: left;}
+
+ul.topnav li a {
+font-family: "Unica One", sans-serif;
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+ul.topnav li a:hover:not(.active) {background-color: #111;}
+
+ul.topnav li a.active {background-color: #DF101A;}
+
+ul.topnav li.right {float: right;}
+
+
+
+/*Portfolio Page*/
+.porth1{
+  font-family: "Quantico", sans-serif;
+  font-weight: 800;
+  font-style: normal;
+	font-size: 9vw;
+	color:#DF101A;
+	text-align: center;
+	margin-top: 0;
+  margin-bottom: 20px; 
+  padding-top: 0; 
+}
+
+
+
+.flexcontainer{
+	display: flex;
+	
+	background-color: #f1f1f1;
+	
+}
+.flexcontainer div{
+  background-color: #f1f1f1;
+  margin: 10px;
+  padding: 20px;
+  font-size: 24px;
+
+}
+
+
+
+/*Contact Form*/
+
+
+/* Style inputs */
+input[type=text], select, textarea {
+  width: 100%;
+  padding: 12px;
+  border: 1px solid #ccc;
+  margin-top: 6px;
+  margin-bottom: 16px;
+  resize: vertical;
+}
+
+input[type=submit] {
+  background-color: #Df101A;
+  color: white;
+  padding: 12px 20px;
+  border: none;
+  cursor: pointer;
+}
+
+input[type=submit]:hover {
+  background-color: #45a049;
+}
+
+/* Style the container/contact section */
+
+/* Create two columns that float next to eachother */
+.columnLeft {
+  float: left;
+  width: 50%;
+  margin-top: 6px;
+  padding: 20px;
+}
+
+.columnRight {
+  float: right;
+  width: 50%;
+  margin-top: 6px;
+  padding: 20px;
+}
+
+
+/* Clear floats after the columns */
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+/* Responsive layout - when the screen is less than 600px wide, make the two columns stack on top of each other instead of next to each other */
+@media screen and (max-width: 600px) {
+  .column, input[type=submit] {
+    width: 100%;
+    margin-top: 0;
+  }
+}
+
+
+/*PortfolioSection*/
+bodyPort {
+  margin: 0;
+  font-family: Arial;
+}
+
+.headerport {
+  text-align: center;
+  padding: 32px;
+}
+
+.row {
+  display: -ms-flexbox; /* IE10 */
+  display: flex;
+  -ms-flex-wrap: wrap; /* IE10 */
+  flex-wrap: wrap;
+  padding: 0 4px;
+}
+
+/* Create four equal columns that sits next to each other */
+.columnPort {
+  -ms-flex: 25%; /* IE10 */
+  flex: 25%;
+  max-width: 25%;
+  padding: 0 4px;
+}
+
+.column img {
+  margin-top: 8px;
+  vertical-align: middle;
+  max-width: 100%;
+}
+
+/* Responsive layout - makes a two column-layout instead of four columns */
+@media screen and (max-width: 800px) {
+  .column {
+    -ms-flex: 50%;
+    flex: 50%;
+    max-width: 50%;
+  }
+}
+
+/* Responsive layout - makes the two columns stack on top of each other instead of next to each other */
+@media screen and (max-width: 600px) {
+  .column {
+    -ms-flex: 100%;
+    flex: 100%;
+    max-width: 100%;
+  }
+}
+
+
+
+.container {
+  border-radius: 5px;
+  padding: 1px;
+	height: auto;
+	margin-top:2px;
+}
+
+.container2 {
+  border-radius: 5px;
+  padding: 1px;
+	height: auto;
+	margin-top:2px;
+	background-color:#D6D6D6;
+}
+
+/* Create two columns that float next to eachother */
+.column {
+  float: left;
+  width: 50%;
+  margin-top: 6px;
+  padding: 20px;
+}
+
+/* Clear floats after the columns */
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+.leftimage {
+	float:left;
+	max-width: 100%;
+	height: inherit;
+	display: block;
+	margin-top: -20px;
+	margin-right: 50px;
+	margin-bottom: 40px;
+}
+
+/* Responsive layout - when the screen is less than 600px wide, make the two columns stack on top of each other instead of next to each other */
+div.gallery {
+  border: 1px solid #ccc;
+}
+
+div.gallery:hover {
+  border: 1px solid #777;
+}
+
+div.gallery img {
+  width: 100%;
+  height: auto;
+}
+
+div.desc {
+  padding: 15px;
+  text-align: center;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+.responsive {
+  padding: 0 6px;
+  float: left;
+  width: 24.99999%;
+}
+
+@media only screen and (max-width: 700px) {
+  .responsive {
+    width: 49.99999%;
+    margin: 6px 0;
+  }
+}
+
+@media only screen and (max-width: 500px) {
+  .responsive {
+    width: 100%;
+  }
+}
+
+.clearfix:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+.colordesign1{
+	background-image:url("IMG/background1pattern.png");
+background-attachment:fixed;
+	background-size: cover;
+	background-color:#F4F2F3;
+	padding:15%;
+	margin:0%;
+	margin-top: 0;
+  padding-top: 10px;
+}
+
+p3{ font-family: 'IBM Plex Sans';
+  font-weight: 400;
+  font-style: italic;
+	font-size: 1.70vw;
+	color:#373737;
+	text-align:right;	
+	padding: 4px;
+}
+
+p4{ font-family: 'IBM Plex Sans';
+  font-weight: 400;
+  font-style: normal;
+	font-size: 1.70vw;
+	color:#373737;
+	text-align:right;	
+	padding: 4px;
+}
+
+
+.desc {font-family: 'IBM Plex Sans';
+  font-weight: 400;
+  font-style: italic;
+	font-size: 1.5vw;
+	color:#00000;
+	padding: 5px;
+	text-align: left;
+}
+label {font-family: "Unica One", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+	font-size: 3vw;
+	color:#DF101A;
+}
+
+
+.typography1{
+	background-color:#000000;
+	padding:5%;
+}
+
+#lname {
+	font-family: 'IBM Plex Sans';
+  font-weight: 400;
+  font-style: normal;
+	font-size: 1.5vw;
+	color:#00000;
+	padding: 5px;
+	text-align: left;
+	
+}
+#fname {
+	font-family: 'IBM Plex Sans';
+  font-weight: 400;
+  font-style: normal;
+	font-size: 1.5vw;
+	color:#00000;
+	padding: 5px;
+	text-align: left;
+	
+}
+#subject {
+	font-family: 'IBM Plex Sans';
+  font-weight: 400;
+  font-style: normal;
+	font-size: 1.5vw;
+	color:#00000;
+	padding: 5px;
+	text-align: left;
+	
+}
+
+.footer{
+	background-color:#171717;
+	padding:10%;
+	text-align: center;
+	text-size: 6vw;
+}
+
+/* Animation */
+.moving-image-bg {
+  width: 100vw;
+  height: 100vh;
+  
+  background-image:url("IMG/experiment.png") ;
+  background-repeat: repeat;
+  
+  
+  animation: scrollBackground 15s linear infinite; 
+}
+
+
+@keyframes scrollBackground {
+  from {
+    background-position: 0 0;
+  }
+  to {
+    background-position: 100% 100%; 
+  }
+}
+
+
+
+.accordion {
+  background-color: #eee;
+  color: #444;
+  cursor: pointer;
+  padding: 18px;
+  width: 100%;
+  border: none;
+  text-align: left;
+  outline: none;
+  font-size: 15px;
+  transition: 0.4s;
+}
+
+.active, .accordion:hover {
+  background-color: #ccc; 
+}
+
+.panel {
+  padding: 0 18px;
+  display: none;
+  background-color: white;
+  overflow: hidden;
+}
+
+
+/*Lightbox Gallery*/
+
+.modal {
+  display: none;
+  position: fixed;
+  z-index: 1;
+  padding-top: 100px;
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  overflow: auto;
+  background-color: black;
+}
+
+/* Modal Content */
+.modal-content {
+  position: relative;
+  background-color: #000000;
+  margin: auto;
+  padding: 0;
+  width: 90%;
+  max-width: 1200px;
+}
+
+/* The Close Button */
+.close {
+  color: white;
+  position: absolute;
+  top: 10px;
+  right: 25px;
+  font-size: 35px;
+  font-weight: bold;
+}
+
+.close:hover,
+.close:focus {
+  color: #999;
+  text-decoration: none;
+  cursor: pointer;
+}
+
+.mySlides {
+  display: none;
+}
+
+.cursor {
+  cursor: pointer;
+}
+
+/* Next & previous buttons */
+.prev,
+.next {
+  cursor: pointer;
+  position: absolute;
+  top: 50%;
+  width: auto;
+  padding: 16px;
+  margin-top: -50px;
+  color: white;
+  font-weight: bold;
+  font-size: 20px;
+  transition: 0.6s ease;
+  border-radius: 0 3px 3px 0;
+  user-select: none;
+  -webkit-user-select: none;
+}
+
+/* Position the "next button" to the right */
+.next {
+  right: 0;
+  border-radius: 3px 0 0 3px;
+}
+
+/* On hover, add a black background color with a little bit see-through */
+.prev:hover,
+.next:hover {
+  background-color: rgba(0, 0, 0, 0.8);
+}
+
+/* Number text (1/3 etc) */
+.numbertext {
+  color: #f2f2f2;
+  font-size: 12px;
+  padding: 8px 12px;
+  position: absolute;
+  top: 0;
+}
+
+
+
+.caption-container {
+  text-align: center;
+  background-color: black;
+  padding: 2px 16px;
+  color: white;
+}
+
+.demo {
+  opacity: 0.6;
+}
+
+.active,
+.demo:hover {
+  opacity: 1;
+}
+
+
+
+.hover-shadow:hover {
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
